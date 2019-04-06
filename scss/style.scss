@@ -1,0 +1,175 @@
+@import "normalize";
+@import "layout";
+@import "elements";
+
+body{
+	border: 15px solid #fff;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1110px;
+}
+
+.ba-page-title{
+
+}
+
+.ba-section{
+	padding: 40px 0;
+}
+
+.ba-header{
+	background-color: #5474fd;
+	height: 80px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	font-size: 14px;
+	
+}
+
+.ba-menu{
+	list-style: none;
+	display: flex;
+	margin: 34px 0 34px;
+	padding: 0;
+}
+
+.ba-menu a{
+	padding-left: 41px;
+	text-decoration: none;
+
+	color: #ffffff;
+	text-transform: uppercase;
+	line-height: 26px;
+	font-size: 14px;
+}
+
+.ba-header-bar{
+	display: flex;
+	justify-content: space-between;
+}
+
+.ba-header-bar img{
+	margin: 32px 0 32px;
+}
+
+
+.ba-section-intro{
+	background: url(../img/ba-intro.jpg) no-repeat;
+	min-height: 100vh;
+	color: #ffffff;
+}
+
+.ba-page-title{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 265px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 26px;
+	font-size: 48px;
+}
+
+.ba-under{
+	text-align: center;
+	font-weight: 400;
+	line-height: 26px;
+	font-size: 22px;
+}
+
+.ba-search-form input{
+	width: 500px;
+}
+
+.ba-search-form button{
+	width: 150px;
+	border: 2px solid #ffffff;
+	background-color: #5474fd;
+	text-transform: uppercase;
+}
+
+
+form{
+	display: flex;
+}
+
+.ba-intro-inner{
+	align-items: center;
+}
+
+.ba-section-choose{
+	background: url(../img/bg-img-2.jpg) no-repeat;
+	min-height: 100vh;
+}
+
+p{
+	width: 530px;
+	height: 200px;
+	color: #e8e8e8;
+	font-family: "Josefin Sans";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 1.6px;
+}
+
+.ba-button-hollow{
+	font-size: 16px;
+	color: #fff;
+	background-color: #5474fd;
+	font-weight: 700;
+	padding: 24px 38px;
+	letter-spacing: 1.2px;
+	margin-top: 43px;
+	text-decoration: none;
+	width: 225px;
+	height: 60px;
+	text-transform: uppercase;
+}
+
+.ba-section-places{
+	background-color: #333333;
+
+	height: 337px;
+
+}
+
+.ba-section-spain{
+	background: url(../img/ba-bg-4.jpg) no-repeat;
+	height: 700px;
+}
+
+.ba-section-grandspain{
+	background: url(../img/ba-bg-5.jpg) no-repeat;
+
+	height: 700px;
+}
+
+.ba-button-book-now{
+	display: block;
+	height: 60px;
+	background-color: #5474fd;
+	text-decoration: none;
+	width: 225px;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	padding: 19px 63px 20px 62px;
+}
+
+.ba-dark-wrap{
+	background-color: #232323;
+	width: 540px;
+	height: 371px;
+	opacity: 0.9;
+	color: #e8e8e8;
+	padding: 10px 10px;
+}
